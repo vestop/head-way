@@ -5,8 +5,8 @@
   min-height: 100vh;
   align-items: center;
   padding-top: 55px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
   flex-direction: column;
   padding-bottom: 200px;
 }
@@ -18,7 +18,7 @@
   font-size: 18px;
 }
 .home-text03 {
-  color: #065baf;
+  color: #17618c;
   font-size: 65px;
   font-style: normal;
   font-weight: 600;
@@ -31,7 +31,7 @@
   margin-top: 0px;
   font-family: "Arial";
   border-radius: 15px;
-  background-color: #bfbfbf;
+  background-color: #d7d7d7;
 }
 .home-text06 {
   font-size: 1.8em;
@@ -43,7 +43,7 @@
   height: 1px;
   align-self: flex-start;
   margin-top: 15px;
-  border-color: #adadad;
+  border-color: #bbbbbb;
   border-width: 1px;
 }
 .home-container02 {
@@ -63,7 +63,7 @@
   height: 1px;
   align-self: flex-start;
   margin-top: 15px;
-  border-color: #adadad;
+  border-color: #bbbbbb;
   border-width: 1px;
 }
 .home-container04 {
@@ -160,6 +160,14 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
+.home-image {
+  top: 47px;
+  flex: 1;
+  right: 88px;
+  width: 150px;
+  position: absolute;
+  object-fit: cover;
+}
 @media(max-width: 767px) {
   .home-container {
     padding-top: 50px;
@@ -169,6 +177,10 @@
   }
   .home-text {
     align-self: flex-start;
+  }
+  .home-image {
+    top: 44px;
+    right: 57px;
   }
 }
 @media(max-width: 479px) {
@@ -192,6 +204,7 @@
     line-height: 1.8;
   }
   .home-text05 {
+    padding: 8px;
     font-size: 14px;
     font-family: Arial;
     background-color: rgb(191, 191, 191);
@@ -234,7 +247,7 @@
     margin-top: var(--dl-space-space-threeunits);
   }
   .home-container07 {
-    width: 181px;
+    width: 140px;
     margin-top: 15px;
     margin-bottom: 20px;
   }
@@ -261,5 +274,10 @@
   }
   .home-text20 {
     font-size: 1.2em;
+  }
+  .home-image {
+    top: 56px;
+    right: 22px;
+    width: 75px;
   }
 }
