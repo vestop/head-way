@@ -168,6 +168,17 @@
   position: absolute;
   object-fit: cover;
 }
+@media(max-width: 991px) {
+  .home-container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .home-image {
+    top: 58px;
+    right: 59px;
+    width: 130px;
+  }
+}
 @media(max-width: 767px) {
   .home-container {
     padding-top: 50px;
@@ -177,10 +188,94 @@
   }
   .home-text {
     align-self: flex-start;
+    font-family: Arial;
+  }
+  .home-text01 {
+    font-size: 13px;
+  }
+  .home-text03 {
+    color: #17618c;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.8;
+  }
+  .home-text05 {
+    font-size: 14px;
+    font-family: Arial;
+    background-color: rgb(215, 215, 215);
+  }
+  .home-text06 {
+    font-size: 1.2em;
+    margin-top: var(--dl-space-space-twounits);
+  }
+  .home-container01 {
+    margin-top: 10px;
+  }
+  .home-text07 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .home-text08 {
+    font-size: 1.2em;
+    margin-top: var(--dl-space-space-twounits);
+  }
+  .home-container03 {
+    margin-top: 10px;
+  }
+  .home-text09 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .home-text10 {
+    font-size: 1.2em;
+  }
+  .home-container05 {
+    margin-top: 10px;
+  }
+  .home-text11 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .home-text12 {
+    font-size: 1.2em;
+    margin-top: var(--dl-space-space-threeunits);
+  }
+  .home-container07 {
+    width: 175px;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .home-text13 {
+    font-size: 1em;
+  }
+  .home-text14 {
+    font-size: 16px;
+  }
+  .home-text15 {
+    font-size: 14px;
+  }
+  .home-text16 {
+    font-size: 1.2em;
+  }
+  .home-text17 {
+    font-size: 14px;
+  }
+  .home-text18 {
+    font-size: 1.2em;
+  }
+  .home-text19 {
+    font-size: 14px;
+  }
+  .home-text20 {
+    font-size: 1.2em;
   }
   .home-image {
-    top: 44px;
-    right: 57px;
+    top: 69px;
+    right: 52px;
+    width: 80px;
+    height: auto;
   }
 }
 @media(max-width: 479px) {
@@ -191,6 +286,7 @@
     padding-bottom: 40px;
   }
   .home-text {
+    width: 100%;
     font-family: Arial;
   }
   .home-text01 {
@@ -276,8 +372,8 @@
     font-size: 1.2em;
   }
   .home-image {
-    top: 56px;
-    right: 22px;
+    top: 86px;
+    right: 32px;
     width: 75px;
   }
 }
